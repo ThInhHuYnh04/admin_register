@@ -99,7 +99,7 @@ public class register extends JFrame {
 		contentPane.add(panel_1, gbc_panel_1);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(register.class.getResource("/resource/register.png")));
+		//lblNewLabel.setIcon(new ImageIcon(register.class.getResource("/resource/register.png")));
 		panel_1.add(lblNewLabel);
 		
 		JPanel panel = new JPanel();

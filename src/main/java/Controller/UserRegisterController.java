@@ -1,7 +1,6 @@
 package Controller;
 
-import Models.UserInstance;
-import Models.person;
+import Model.person;
 import Repository.Connection;
 import UI.register;
 import com.google.gson.Gson;
@@ -82,9 +81,6 @@ public class UserRegisterController {
         Gson gson = new Gson();
         person person = gson.fromJson(content.toString(), person.class);
 
-        UserInstance.getInstance().setUser_id(person.getPPersonid());
-        UserInstance.getInstance().setUser_name(person.getPersonname());
-        UserInstance.getInstance().setUser_email(person.getPersonemail());
 
     }
 
