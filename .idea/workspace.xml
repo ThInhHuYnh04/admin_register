@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f0964831-3eac-4a72-829c-8565d7b702bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/UserRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/UserRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Repository/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository/Connection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <recent name="Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.login">
+  <component name="RunManager" selected="Application.register">
     <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.login" />
       <module name="aadmin_register" />
@@ -88,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.login" />
         <item itemvalue="Application.register" />
+        <item itemvalue="Application.login" />
       </list>
     </recent_temporary>
   </component>
@@ -112,6 +114,7 @@
       <workItem from="1715871434097" duration="2000" />
       <workItem from="1715872396236" duration="4211000" />
       <workItem from="1715963642333" duration="48000" />
+      <workItem from="1715963792118" duration="698000" />
     </task>
     <servers />
   </component>

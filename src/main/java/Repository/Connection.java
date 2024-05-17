@@ -73,7 +73,7 @@ public class Connection {
         gson = new Gson();
         String json = gson.toJson(person);
 
-        openPostConnection("http://localhost:8080/user/createPerson");
+        openPostConnection("https://still-cliffs-55450-6c9d6b2dff57.herokuapp.com/user/createPerson");
 
         String response = "";
         try {
